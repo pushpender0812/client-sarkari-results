@@ -1,0 +1,145 @@
+/* Container styling with border */
+.job-single-container {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+}
+
+/* Job title and description */
+.job-details {
+    text-align: left;
+}
+
+.highlighted-title {
+    color: #1a73e8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Grid layout for table titles in a single column */
+.table-grid-single-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Container for important info with black border */
+.important-info-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* Flex items for Important Dates and Application Fees */
+.important-info {
+    width: 48%;
+}
+
+/* Vertical line between two sections */
+.vertical-line {
+    width: 2px;
+    background-color: black;
+    height: auto;
+}
+
+/* Age Limit Section */
+.age-limit-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+/* Vacancy details styling */
+.vacancy-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+/* How to Fill Section */
+.how-to-fill {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+/* Important Links - Button format */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* General table structure with black line border */
+.links-table {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.links-table thead {
+    font-size: 20px;
+    color: #2980b9;
+}
+
+.links-table tbody td {
+    padding: 10px;
+}
+
+/* Highlighted title with proper spacing */
+.how-to-fill-title {
+    color: #e74c3c;  /* Highlight color */
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* General list styling for content split */
+.how-to-fill ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Align links in important sections */
+.important-info ul,
+.age-limit-section ul,
+.how-to-fill ul {
+    margin-left: 0; /* Align all lists to the same point */
+    padding-left: 0; /* Remove padding for uniformity */
+    list-style-type: none; /* Optional: remove default bullet points */
+}
+
+/* Add margin between list items for readability */
+.important-info ul li,
+.age-limit-section ul li,
+.how-to-fill ul li {
+    margin-bottom: 10px; /* Spacing between items */
+    line-height: 1.5; /* Line height for better readability */
+}

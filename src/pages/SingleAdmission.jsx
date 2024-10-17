@@ -9,7 +9,7 @@ const SingleAdmission = () => {
 
     const getSingleAdmission = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/api/single-admission?id=${id}`, {
+            const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/single-admission?id=${id}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

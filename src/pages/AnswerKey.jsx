@@ -6,7 +6,7 @@ const AnswerKey = () => {
 
   const getAllAnswerKey = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/answer-key`, {
+      const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/api/answer-key`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

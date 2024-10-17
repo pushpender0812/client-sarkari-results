@@ -25,7 +25,7 @@ const Contact = () => {
      
     try {
       const response = await fetch(
-        `http://localhost:5000/api/contact`,
+        `https://server-sarkari-exam-result-4.onrender.com/api/contact`,
         {
           method: "POST",
           headers: {

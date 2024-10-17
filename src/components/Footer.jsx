@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
 
@@ -12,7 +13,6 @@ const Footer = () => {
 }, []); 
 
  
-
 
 
 
@@ -54,6 +54,7 @@ const Footer = () => {
             <p>Total Visitors : {count}</p>
           </div>
           <p className="text-sm">© {new Date().getFullYear()} Py. All rights reserved.</p>
+          <NavLink to={'/results'} >Result page</NavLink>
         </div>
       </footer>
     

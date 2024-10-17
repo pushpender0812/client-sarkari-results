@@ -6,7 +6,7 @@ const Syllabus = () => {
 
   const getAllSyllabus = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/syllabus`, {
+      const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/api/syllabus`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

@@ -6,7 +6,7 @@ const Spin = () => {
 
     const getSpinSaved = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/api/get-spin`, {
+            const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/api/get-spin`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

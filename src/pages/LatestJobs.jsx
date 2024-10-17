@@ -7,7 +7,7 @@ const LatestJobs = () => {
 
   const getAllJobs = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/get-alljobs`, {
+      const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/api/get-alljobs`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

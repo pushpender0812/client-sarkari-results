@@ -10,7 +10,7 @@ const SngleResult = () => {
 
     const getSingleresult = async () => {
         try {
-            const response = await fetch(`http://localhost:5000/api/single-result?id=${id}`, {
+            const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/api/single-result?id=${id}`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

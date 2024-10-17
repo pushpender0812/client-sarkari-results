@@ -7,7 +7,7 @@ const Results = () => {
 
   const getAllResults = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/get-allresults`, {
+      const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/api/get-allresults`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -25,6 +25,10 @@ const Results = () => {
   useEffect(() => {
     getAllResults();
   }, []);
+
+
+  
+
 
   return (
     <div className="overflow-x-auto">
@@ -58,6 +62,7 @@ const Results = () => {
           ))}
         </tbody>
       </table>
+      
     </div>
   );
 };

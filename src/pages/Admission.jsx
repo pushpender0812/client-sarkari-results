@@ -7,7 +7,7 @@ const Admission = () => {
 
     const getAllAdmission = async () => {
         try {
-            const response = await fetch(`https://server-sarkari-exam-result-4.onrender.com/api/admission`, {
+            const response = await fetch(`http://localhost:5000/api/admission`, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',

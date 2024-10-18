@@ -2,17 +2,19 @@
 .job-single-container {
     margin-top: 50px;
     padding: 20px;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
     border-radius: 10px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 /* Job title and description */
 .job-details {
     text-align: left;
+    background-color:white;
+
 }
 
 .highlighted-title {
@@ -83,6 +85,7 @@
 /* Important Links - Button format */
 .button {
     display: inline-block;
+    justify-content:right;
     padding: 10px 20px;
     background-color: #3498db;
     color: white;

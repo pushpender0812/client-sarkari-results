@@ -35,7 +35,9 @@ const Home = () => {
         <>
           <Spin />
           {/* First row: Results, AdmitCard, LatestJobs */}
-          <div className="w-full max-w-[1200px] flex flex-wrap justify-center gap-4 mt-[200px]">
+          <div  className={`w-full max-w-[1200px] flex ${
+              isHomePage ? "flex-nowrap" : "flex-wrap"
+            } justify-center gap-4 mt-4`}>
             <div className="flex-grow flex-basis-[33%] min-w-[300px]">
               <Results className="text-base md:text-lg p-2" />
             </div>

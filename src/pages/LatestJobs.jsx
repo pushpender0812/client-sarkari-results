@@ -51,7 +51,7 @@ const LatestJobs = () => {
                 {/* Spinner icon inside table row */}
                 <div className="flex justify-center items-center">
                   <svg
-                    className="animate-spin h-8 w-8 text-orange-500"
+                    className="animate-spin h-8 w-8 text-blue-500"
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"

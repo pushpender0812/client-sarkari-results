@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="grid justify-between items-center p-4 text-white shadow-xl rounded-2xl">
       <div className="flex items-center gap-4   bg-slate-500 rounded-3xl">
-        <img src='../assets/logo.jpg' alt="Logo" className="w-16 h-16 rounded-3xl " />
+        {/* <img src='../assets/logo.jpg' alt="Logo" className="w-16 h-16 rounded-3xl " /> */}
         <h2 className="text-2xl font-bold">Sarkari Exam Result</h2>
       </div>
       <div className='bg-white h-2 md:w-[1180px] '></div>

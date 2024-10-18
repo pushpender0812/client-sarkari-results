@@ -40,13 +40,13 @@ const Spin = () => {
                         <NavLink to={`/job/${spn.job_id.slug}`} key={spn.job_id} className="text-black relative">
                             <marquee behavior="alternate" direction="right" className="flex items-center">
                                 {/* Marquee Text with badge */}
-                                <span className="bg-gradient-to-r from-red-500 to-yellow-500 text-transparent bg-clip-text">
+                                <span className="text-blue-700 underline hover:text-red-500">
                                     {spn.spin_title}
                                 </span>
                                 {/* Badge attached to the right of text */}
-                                <span className="ml-2 bg-red-500 text-white text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
+                                {/* <span className="ml-2   text-xs font-bold rounded-full w-6 h-6 flex items-center justify-center">
                                     new
-                                </span>
+                                </span> */}
                             </marquee>
                         </NavLink>
                     ))}

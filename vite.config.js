@@ -9,7 +9,7 @@ export default defineConfig({
       registerType: 'autoUpdate',  // Check for updates automatically
       injectRegister: 'auto',       // Auto-inject service worker registration
       manifest: {
-        name: 'My PWA App',
+        name: 'Sarkar Exam Results',
         short_name: 'MyPWA',
         start_url: '/',
         display: 'standalone',
@@ -17,12 +17,12 @@ export default defineConfig({
         background_color: '#ffffff',
         icons: [
           {
-            src: './assets/logo.jpg',
+            src: '/assets/logo.jpg', // Update to absolute path
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: './assets/logo.jpg',
+            src: '/assets/logo.jpg', // Update to absolute path
             sizes: '512x512',
             type: 'image/png',
           },
